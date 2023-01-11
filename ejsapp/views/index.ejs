@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('./partials/head.ejs') %>
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <%- include('./partials/navbar.ejs') %>
+    <%-include('./partials/carousel.ejs') %> 
+    <%- include('./partials/button-group.ejs') %>
+    <%- include('./partials/helloList.ejs', {users: ["John Doe", "Mark White", "Barbara Smith", newUser]}) %>
+    <%- include('./partials/toast.ejs') %>
+    <%- include('./partials/scripts.ejs') %>
+  </body>
+</html>

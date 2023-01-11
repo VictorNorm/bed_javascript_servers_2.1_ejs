@@ -1,0 +1,16 @@
+{
+  "name": "bed_javascript_servers_2.1_ejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.0-alpha1",
+    "ejs": "^3.1.8",
+    "jquery": "^3.6.3"
+  }
+}
